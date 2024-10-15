@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+}
+
+.container {
+    background-color: hsl(0, 0%, 85%);
+    box-shadow: 3px 3px 20px hsla(0, 0%, 0%, 0.70);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.50);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    border: 3px solid hsla(0, 0%, 0%, 0.281);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.70);
+    padding: 5px 50px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+select:hover {
+    background-color: hsl(0, 0%, 85%);
+}
+select:active {
+    background-color: hsl(0, 0%, 70%);
+}
+
+option {
+    display: flex;
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: 1px 1px 10px hsla(0, 0%, 0%, 0.685);
+    padding: 10px 30px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.pokemonImg {
+    width: 100%;
+    margin-top: 20px;
+}
+
+input {
+    width: 30px;
+}
+
+label {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
